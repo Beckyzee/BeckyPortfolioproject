@@ -1,0 +1,49 @@
+*
+*::after
+*::before{
+    box-sizing:border-box;
+}
+.body{
+    border-style: outset;
+    border-width: 20px;
+    border-color: palevioletred;
+    width: 600px;
+    height: 500px;
+}
+
+header {
+    text-align: right;
+    font-size: 10px;
+    padding: 10px;
+
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    text-align: center;
+    font-size: 10px;
+}
+.flex {
+    width: 40%;
+    float: right;
+    padding: 50px;
+    text-align: justify;
+    font-size: 11px;
+}
+.button1 {
+    color: black;
+    font-size: 8px;
+    margin: 2px 2px;
+    text-align: center;
+    display: inline-block;
+    width: 15%;
+    height: fit-content;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px;
+    float: right;
+    font-size: 10px;
+}
